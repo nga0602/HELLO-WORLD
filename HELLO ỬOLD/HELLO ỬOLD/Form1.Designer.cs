@@ -45,10 +45,10 @@
             // 
             // BTNSHOW
             // 
-            this.BTNSHOW.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.BTNSHOW.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.BTNSHOW.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTNSHOW.ForeColor = System.Drawing.Color.Red;
-            this.BTNSHOW.Location = new System.Drawing.Point(126, 268);
+            this.BTNSHOW.Location = new System.Drawing.Point(116, 278);
             this.BTNSHOW.Name = "BTNSHOW";
             this.BTNSHOW.Size = new System.Drawing.Size(176, 36);
             this.BTNSHOW.TabIndex = 1;
@@ -63,7 +63,7 @@
             this.ClientSize = new System.Drawing.Size(435, 316);
             this.Controls.Add(this.BTNSHOW);
             this.Controls.Add(this.LBLHELLOWORLD);
-            this.MinimumSize = new System.Drawing.Size(400, 340);
+            this.MinimumSize = new System.Drawing.Size(400, 345);
             this.Name = "FRMHELLOWORLD";
             this.Text = "HELLO WORLD";
             this.ResumeLayout(false);
